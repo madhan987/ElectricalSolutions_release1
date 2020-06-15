@@ -23,9 +23,27 @@
 
   .example-card {
     max-width: 400px;
+    height: 300px;
   }
   
   .example-header-image {
     background-image: url('/assets/images/start-design-electrical-installation-1.jpg');
     background-size: cover;
   }
+
+  
+
+ul, li {
+    list-style: outside none none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+} 
+
+.list-inline>li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}

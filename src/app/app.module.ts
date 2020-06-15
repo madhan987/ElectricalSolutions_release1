@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule,
     MatToolbarModule,
     MatCardModule,
     MatButtonModule

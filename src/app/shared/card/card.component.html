@@ -1,16 +1,11 @@
 <mat-card class="example-card">
-  <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>{{ electricalDomain.title }}</mat-card-title>
-  </mat-card-header>
-  <img
-    mat-card-image
-    src="{{ electricalDomain.imageUrl }}"
-    alt="Photo of a Shiba Inu"
-  />
-  <mat-card-content>
-    <p>
-      {{ electricalDomain.body }}
-    </p>
-  </mat-card-content>
+    <mat-card-header class="mb-2" style="height: 60px;">
+        <mat-card-title class="m-0  text-wrap">{{ electricalDomain.title }}</mat-card-title>
+    </mat-card-header>
+    <img width="230px" height="200px" mat-card-image src="{{ electricalDomain.imageUrl }}" alt="Photo of a Shiba Inu" />
+    <mat-card-content>
+        <p>
+            {{ electricalDomain.body }}
+        </p>
+    </mat-card-content>
 </mat-card>

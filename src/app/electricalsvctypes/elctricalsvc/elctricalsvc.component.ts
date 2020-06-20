@@ -10,6 +10,7 @@ export class ElctricalsvcComponent implements OnInit {
 
   electricalSvcTypes: ElectricalType[] = [];
   electricalSvcTypes2: ElectricalType[] = [];
+  electricalSvcTypes3: ElectricalType[] = [];
 
   ngOnInit(): void {
     this.electricalSvcTypes = [
@@ -53,17 +54,17 @@ export class ElctricalsvcComponent implements OnInit {
       {
         title: "Line upgrades, Reconducting & modification",
         body: "",
-        imageUrl: "/assets/images/BESCOM.jpg",
+        imageUrl: "/assets/images/Line_Upgrades.jpg",
       },
       {
         title: "Pot heads",
         body: "",
-        imageUrl: "/assets/images/BESCOM.jpg",
+        imageUrl: "/assets/images/Pot_Heads.jpg",
       },
     ];
   }
   public configureCardThirdRow() {
-    this.electricalSvcTypes2 = [
+    this.electricalSvcTypes3 = [
       {
         title: "UG cable pulling & cable jointing",
         body: "",

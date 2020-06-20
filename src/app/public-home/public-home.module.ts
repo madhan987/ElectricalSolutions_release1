@@ -5,6 +5,7 @@ import { PublicHomeRoutingModule } from './public-home-routing.module';
 import { HomeComponent } from './home/home.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatButton, MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MatButton, MatButtonModule } from '@angular/material/button';
     CommonModule,
     PublicHomeRoutingModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDividerModule
   ]
 })
 export class PublicHomeModule { }

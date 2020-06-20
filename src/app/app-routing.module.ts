@@ -1,13 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+
 
 
 const routes: Routes = [
-  // { path: '', redirectTo: '/home', pathMatch: 'full' },
+
+  { path: '', redirectTo: '/public-home', pathMatch: 'full' },
+
   {
-  path: 'homes', component: HomeComponent
-}];
+    path: 'public-home',
+    loadChildren: () => import('./public-home/public-home.module').then(m => m.PublicHomeModule)
+  },
+
+  {
+    path: 'electrical-svc',
+    loadChildren: () => import('./electricalsvctypes/electricalsvctypes.module').then(m => m.ElectricalsvctypesModule)
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

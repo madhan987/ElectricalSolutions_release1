@@ -1,0 +1,43 @@
+<div style="padding-top: 68px;">
+    <div class="container my-2">
+        <div class="row pb-3">
+            <ng-container *ngFor="let svcType of electricalSvcTypes">
+                <div class="col-sm col-md">
+                    <mat-card class="example-card">
+                        <mat-card-header>
+                            <div mat-card-avatar class="example-header-image"></div>
+                            <mat-card-title>{{svcType.title}}</mat-card-title>
+                            <mat-card-subtitle>Electrical Contract</mat-card-subtitle>
+                        </mat-card-header>
+                        <img mat-card-image src="{{svcType.imageUrl}}" alt="Photo of a Shiba Inu">
+                        <mat-card-content>
+                            <p>
+                                {{svcType.body}}
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </ng-container>
+        </div>
+
+        <div class="row">
+            <ng-container *ngFor="let svcType of electricalSvcTypes">
+                <div class="col-sm col-md">
+                    <mat-card class="example-card">
+                        <mat-card-header>
+                            <div mat-card-avatar class="example-header-image"></div>
+                            <mat-card-title>{{svcType.title}}</mat-card-title>
+                            <mat-card-subtitle>Electrical Contract</mat-card-subtitle>
+                        </mat-card-header>
+                        <img mat-card-image src="{{svcType.imageUrl}}" alt="Photo of a Shiba Inu">
+                        <mat-card-content>
+                            <p>
+                                {{svcType.body}}
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>

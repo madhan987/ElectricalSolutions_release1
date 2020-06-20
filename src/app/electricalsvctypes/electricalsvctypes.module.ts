@@ -5,10 +5,11 @@ import { ElectricalsvctypesRoutingModule } from './electricalsvctypes-routing.mo
 import { ElctricalsvcComponent } from './elctricalsvc/elctricalsvc.component';
 import { MatCardModule } from '@angular/material/card';
 import { SharedModule } from '../shared/shared.module';
+import { SolortypesComponent } from './solortypes/solortypes.component';
 
 
 @NgModule({
-  declarations: [ ElctricalsvcComponent ],
+  declarations: [ ElctricalsvcComponent, SolortypesComponent ],
   imports: [
     CommonModule,
     ElectricalsvctypesRoutingModule,

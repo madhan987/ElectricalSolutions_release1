@@ -1,12 +1,12 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: "app-elctricalsvc",
-  templateUrl: "./elctricalsvc.component.html",
-  styleUrls: ["./elctricalsvc.component.scss"],
+  selector: 'app-elctricalsvc',
+  templateUrl: './elctricalsvc.component.html',
+  styleUrls: ['./elctricalsvc.component.scss'],
 })
 export class ElctricalsvcComponent implements OnInit {
-  constructor() {}
+  constructor() { }
 
   electricalSvcTypes: ElectricalType[] = [];
   electricalSvcTypes2: ElectricalType[] = [];
@@ -15,24 +15,24 @@ export class ElctricalsvcComponent implements OnInit {
   ngOnInit(): void {
     this.electricalSvcTypes = [
       {
-        title: "Bescom Works",
-        body: "",
-        imageUrl: "/assets/images/BESCOM.jpg",
+        title: 'Bescom Works',
+        body: '',
+        imageUrl: '/assets/images/BESCOM.jpg'
       },
       {
-        title: "HT & LT Electrification",
-        body: "",
-        imageUrl: "/assets/images/HT_LT_Electrification.jpg",
+        title: 'HT & LT Electrification',
+        body: '',
+        imageUrl: '/assets/images/HT_LT_Electrification.jpg',
       },
       {
-        title: "Aerial Bundled conductor stringing",
-        body: "",
-        imageUrl: "/assets/images/Aerial_Bundled_Conductor.png",
+        title: 'Aerial Bundled conductor stringing',
+        body: '',
+        imageUrl: '/assets/images/Aerial_Bundled_Conductor.png',
       },
       {
-        title: "New Electrical poles",
-        body: "",
-        imageUrl: "/assets/images/Electrical_Pole.jpg",
+        title: 'New Electrical poles',
+        body: '',
+        imageUrl: '/assets/images/Electrical_Pole.jpg',
       },
     ];
     this.configureCardSecondRow();
@@ -42,38 +42,38 @@ export class ElctricalsvcComponent implements OnInit {
   public configureCardSecondRow() {
     this.electricalSvcTypes2 = [
       {
-        title: "Digital Energy meters",
-        body: "",
-        imageUrl: "/assets/images/Energy_Meter.png",
+        title: 'Digital Energy meters',
+        body: '',
+        imageUrl: '/assets/images/Energy_Meter.png',
       },
       {
-        title: "Pannel Boards",
-        body: "",
-        imageUrl: "/assets/images/Pannel_Boards.png",
+        title: 'Pannel Boards',
+        body: '',
+        imageUrl: '/assets/images/Pannel_Boards.png',
       },
       {
-        title: "Line upgrades, Reconducting & modification",
-        body: "",
-        imageUrl: "/assets/images/Line_Upgrades.jpg",
+        title: 'Line upgrades, Reconducting & modification',
+        body: '',
+        imageUrl: '/assets/images/Line_Upgrades.jpg',
       },
       {
-        title: "Pot heads",
-        body: "",
-        imageUrl: "/assets/images/Pot_Heads.jpg",
+        title: 'Pot heads',
+        body: '',
+        imageUrl: '/assets/images/Pot_Heads.jpg',
       },
     ];
   }
   public configureCardThirdRow() {
     this.electricalSvcTypes3 = [
       {
-        title: "UG cable pulling & cable jointing",
-        body: "",
-        imageUrl: "/assets/images/BESCOM.jpg",
+        title: 'UG cable pulling & cable jointing',
+        body: '',
+        imageUrl: '/assets/images/BESCOM.jpg',
       },
       {
-        title: "LED street lights",
-        body: "",
-        imageUrl: "/assets/images/Led_Street_Light.png",
+        title: 'LED street lights',
+        body: '',
+        imageUrl: '/assets/images/Led_Street_Light.png',
       },
     ];
   }

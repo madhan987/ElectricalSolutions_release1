@@ -15,5 +15,13 @@
                 </div>
             </ng-container>
         </div>
+
+        <div class="row">
+            <ng-container *ngFor="let svcType of electricalSvcTypes3">
+                <div class="col-sm col-md-3">
+                    <app-card [electricalDomain]="svcType"></app-card>
+                </div>
+            </ng-container>
+        </div>
     </div>
 </div>

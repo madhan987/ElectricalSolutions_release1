@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ElectricalsvctypesRoutingModule } from './electricalsvctypes-routing.module';
 import { ElctricalsvcComponent } from './elctricalsvc/elctricalsvc.component';
 import { MatCardModule } from '@angular/material/card';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     CommonModule,
     ElectricalsvctypesRoutingModule,
-    MatCardModule
+    MatCardModule,
+    SharedModule
   ]
 })
 export class ElectricalsvctypesModule { }

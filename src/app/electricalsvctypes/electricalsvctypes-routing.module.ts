@@ -5,7 +5,7 @@ import { ElctricalsvcComponent } from './elctricalsvc/elctricalsvc.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'elc-type',
     component: ElctricalsvcComponent
   }
 ];

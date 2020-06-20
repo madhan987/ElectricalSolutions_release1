@@ -13,12 +13,13 @@ import {MatListModule} from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { SolortypesComponent } from './solortypes/solortypes.component';
+import { CardComponent } from './shared/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SolortypesComponent
+    SolortypesComponent,
   ],
   imports: [
     BrowserModule,

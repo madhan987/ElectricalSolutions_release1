@@ -2,9 +2,9 @@
     <div class="col-sm">
         <mat-toolbar color="primary">
             <mat-toolbar-row>
-                <button class="d-block d-sm-none" mat-icon-button (click)="drawer.toggle()">
+                <!-- <button class="d-block d-sm-none" mat-icon-button (click)="drawer.toggle()">
                     <mat-icon>menu</mat-icon>
-                </button>
+                </button> -->
                 <a mat-button routerLink="/">Ananya Electrical Solutions</a>
                 <div class="menu-spacer"></div>
                 <div class="d-none  d-md-block matMenus">
@@ -19,12 +19,9 @@
         </mat-toolbar>
     </div>
 </div>
-<mat-drawer-container class="example-container invisible" [hasBackdrop]="true">
+<!-- <mat-drawer-container class="example-container invisible" [hasBackdrop]="true">
     <mat-drawer #drawer mode="side">
         <mat-nav-list style="width: 100px;">
-            <!-- <a (click)="drawer.toggle()" href="" mat-list-item>Close</a> -->
-            <!-- <a href="#" mat-list-item>Menu Item 1</a> -->
-
             <button mat-menu-item routerLink="/electrical-svc/elc-type" (click)="drawer.toggle()">Electrical</button>
             <mat-divider></mat-divider>
             <button mat-menu-item routerLink="/electrical-svc/solar" (click)="drawer.toggle()">Solar</button>
@@ -34,4 +31,4 @@
     <mat-drawer-content class="invisible">
         <div class="container invisible" style="height: 700px; width: 40px;">dssd</div>
     </mat-drawer-content>
-</mat-drawer-container>
+</mat-drawer-container> -->

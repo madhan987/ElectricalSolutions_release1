@@ -37,10 +37,10 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   constructor() { }
 
   private isVisible = true;
-  @HostBinding('@toggle')
-  get toggle(): VisibilityState {
-    return this.isVisible ? VisibilityState.Visible : VisibilityState.Hidden;
-  }
+  // @HostBinding('@toggle')
+  // get toggle(): VisibilityState {
+  //   return this.isVisible ? VisibilityState.Visible : VisibilityState.Hidden;
+  // }
 
   ngOnInit(): void {
   }

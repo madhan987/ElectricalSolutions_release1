@@ -16,6 +16,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatCardModule,
     MatButtonModule,
     MatDividerModule
-  ]
+  ],
+  exports: [HomeComponent]
 })
 export class PublicHomeModule { }

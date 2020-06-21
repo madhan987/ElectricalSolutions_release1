@@ -1,27 +1,27 @@
 <div style="padding-top: 68px;">
-    <div class="container my-2">
-        <div class="row pb-3">
-            <ng-container *ngFor="let svcType of electricalSvcTypes">
-                <div class="col-sm col-md">
-                    <app-card [electricalDomain]="svcType"></app-card>
-                </div>
-            </ng-container>
+  <div class="container my-2">
+    <div class="row pb-3">
+      <ng-container *ngFor="let svcType of electricalSvcTypes">
+        <div class="col-sm col-md">
+          <app-card [electricalDomain]="svcType"></app-card>
         </div>
-
-        <div class="row pb-3">
-            <ng-container *ngFor="let svcType of electricalSvcTypes2">
-                <div class="col-sm col-md">
-                    <app-card [electricalDomain]="svcType"></app-card>
-                </div>
-            </ng-container>
-        </div>
-
-        <div class="row">
-            <ng-container *ngFor="let svcType of electricalSvcTypes3">
-                <div class="col-sm col-md-3">
-                    <app-card [electricalDomain]="svcType"></app-card>
-                </div>
-            </ng-container>
-        </div>
+      </ng-container>
     </div>
+
+    <div class="row pb-3">
+      <ng-container *ngFor="let svcType of electricalSvcTypes2">
+        <div class="col-sm col-md">
+          <app-card [electricalDomain]="svcType"></app-card>
+        </div>
+      </ng-container>
+    </div>
+
+    <div class="row">
+      <ng-container *ngFor="let svcType of electricalSvcTypes3">
+        <div class="col-sm col-md-3">
+          <app-card [electricalDomain]="svcType"></app-card>
+        </div>
+      </ng-container>
+    </div>
+  </div>
 </div>

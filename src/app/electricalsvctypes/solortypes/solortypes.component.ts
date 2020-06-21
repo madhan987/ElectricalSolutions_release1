@@ -1,39 +1,37 @@
-import { Component, OnInit } from '@angular/core';
-import { ElectricalType } from '../elctricalsvc/elctricalsvc.component';
+import { Component, OnInit } from "@angular/core";
+import { ElectricalType } from "../elctricalsvc/elctricalsvc.component";
 
 @Component({
-  selector: 'app-solortypes',
-  templateUrl: './solortypes.component.html',
-  styleUrls: ['./solortypes.component.scss']
+  selector: "app-solortypes",
+  templateUrl: "./solortypes.component.html",
+  styleUrls: ["./solortypes.component.scss"],
 })
 export class SolortypesComponent implements OnInit {
-
   solarSvcTypes: ElectricalType[] = [];
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
     this.solarSvcTypes = [
       {
-        title: 'Bescom Works',
-        body: '',
-        imageUrl: '/assets/images/BESCOM.jpg'
+        title: "Off grid",
+        body: "",
+        imageUrl: "/assets/images/Offgrid.jpg",
       },
       {
-        title: 'HT & LT Electrification',
-        body: '',
-        imageUrl: '/assets/images/HT_LT_Electrification.jpg',
+        title: "On grid",
+        body: "",
+        imageUrl: "/assets/images/Ongrid.jpg",
       },
       {
-        title: 'Aerial Bundled conductor stringing',
-        body: '',
-        imageUrl: '/assets/images/Aerial_Bundled_Conductor.png',
+        title: "Hybrid",
+        body: "",
+        imageUrl: "/assets/images/Hybrid.jpg",
       },
       {
-        title: 'New Electrical poles',
-        body: '',
-        imageUrl: '/assets/images/Electrical_Pole.jpg',
+        title: "Solar Street Lights",
+        body: "",
+        imageUrl: "/assets/images/Solar_Street_Lights.png",
       },
     ];
   }
-
 }

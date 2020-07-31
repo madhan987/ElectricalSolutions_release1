@@ -36,6 +36,7 @@ export class ElctricalsvcComponent implements OnInit {
         imageUrl: "/assets/images/Electrical_Pole.jpg",
       },
     ];
+
     this.configureCardSecondRow();
     this.configureCardThirdRow();
   }

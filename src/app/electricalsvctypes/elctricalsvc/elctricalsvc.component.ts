@@ -13,6 +13,7 @@ export class ElctricalsvcComponent implements OnInit {
   electricalSvcTypes3: ElectricalType[] = [];
 
   ngOnInit(): void {
+    window.scrollTo({ top: 0 });
     this.electricalSvcTypes = [
       {
         title: "Bescom Works",

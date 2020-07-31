@@ -11,6 +11,7 @@ export class SolortypesComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    window.scrollTo({ top: 0 });
     this.solarSvcTypes = [
       {
         title: "Off grid",

@@ -1,35 +1,66 @@
-<!-- <div class="row">
-    <div class="col-sm"> -->
-<mat-toolbar color="primary">
-    <mat-toolbar-row>
-        <!-- <button class="d-block d-sm-none" mat-icon-button (click)="drawer.toggle()">
-                    <mat-icon>menu</mat-icon>
-                </button> -->
-        <a mat-button routerLink="/">Ananya Electrical Solutions</a>
-        <div class="menu-spacer"></div>
-        <!-- <div class="d-none  d-md-block matMenus"> -->
-        <div>
-            <!-- The following menu items will be hidden on both SM and XS screen sizes -->
-            <button mat-button [matMenuTriggerFor]="menu">Services</button>
-            <mat-menu #menu="matMenu">
-                <a mat-menu-item routerLink="/electrical-svc/elc-type">Electrical</a>
-                <a mat-menu-item routerLink="/electrical-svc/solar">Solar</a>
-            </mat-menu>
-        </div>
-    </mat-toolbar-row>
-</mat-toolbar>
-<!-- </div>
-</div> -->
-<!-- <mat-drawer-container class="example-container invisible" [hasBackdrop]="true">
-    <mat-drawer #drawer mode="side">
-        <mat-nav-list style="width: 100px;">
-            <button mat-menu-item routerLink="/electrical-svc/elc-type" (click)="drawer.toggle()">Electrical</button>
-            <mat-divider></mat-divider>
-            <button mat-menu-item routerLink="/electrical-svc/solar" (click)="drawer.toggle()">Solar</button>
-            <mat-divider></mat-divider>
-        </mat-nav-list>
-    </mat-drawer>
-    <mat-drawer-content class="invisible">
-        <div class="container invisible" style="height: 700px; width: 40px;">dssd</div>
-    </mat-drawer-content>
-</mat-drawer-container> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarTogglerDemo03"
+    aria-controls="navbarTogglerDemo03"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" routerLink="/">Ananya Electrical Solutions</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <!-- <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a> -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/electrical-svc/elc-type">Electrical</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/electrical-svc/solar">Solar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/electrical-svc/solar">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/electrical-svc/solar">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/electrical-svc/solar">About us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div
+  id="intro"
+  class="bg-image"
+  style="
+    background-image: url(https://mdbcdn.b-cdn.net/img/new/fluid/city/113.jpg);
+    height: 50vh;
+  "
+>
+  <div
+    class="mask text-white"
+    style="background-color: rgba(0, 0, 0, 0.8); height: 50vh"
+  >
+    <div class="container d-flex align-items-center text-center h-100">
+      <div>
+        <h1 class="mb-5">Ananya Electrical Solutions</h1>
+        <p>
+          At Electrical Solutions, we specialize in delivering safe, efficient,
+          and innovative electrical services tailored to meet the needs of
+          homes, businesses, and industrial facilities. From design and
+          installation to maintenance and troubleshooting, our expert team is
+          committed to powering your world with precision, professionalism, and
+          care. Whether you're upgrading your system, building from the ground
+          up, or looking for energy-efficient alternatives — we bring the
+          expertise and reliability you can trust.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

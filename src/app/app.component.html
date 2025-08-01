@@ -3,7 +3,9 @@
 <app-header></app-header>
 <!-- </header> -->
 
-<router-outlet></router-outlet>
+<div class="container-fluid m-0">
+  <router-outlet></router-outlet>
+</div>
 <!-- </div> -->
 
 <!-- <div class="container pb-4">
@@ -68,35 +70,45 @@
   </div>
 </div> -->
 
-<div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+<div
+  class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn"
+  data-wow-delay="0.1s"
+  style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn"
+>
   <div class="container py-5">
-      <div class="row g-5">
-          <div class="col-lg-4 col-md-6">
-              <h5 class="text-white mb-4">Address</h5>
-              <ul class="footer-conatct-menu text-white">
-                <li>
-                  <a class="text-white" href="mailto:ananyaelectricalsolutions@gmail.com"
-                    ><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;ananyaelectricalsolutions@gmail.com</a
-                  >
-                </li>
-                <li class="mt-2">
-                  <a class="text-white" href="tel:9743461955"
-                    ><i class="fa fa-phone"></i> &nbsp;&nbsp;&nbsp;<span>Phone : </span>
-                    9743461955</a
-                  >
-                </li>
-                <li class="mt-2">
-                  <a class="text-white"
-                    href="http://maps.google.com/?q=59 Opp Bank Of India
+    <div class="row g-5">
+      <div class="col-lg-4 col-md-6">
+        <h5 class="text-white mb-4">Address</h5>
+        <ul class="footer-conatct-menu text-white">
+          <li>
+            <a
+              class="text-white"
+              href="mailto:ananyaelectricalsolutions@gmail.com"
+              ><i class="fa fa-envelope"></i
+              >&nbsp;&nbsp;&nbsp;ananyaelectricalsolutions@gmail.com</a
+            >
+          </li>
+          <li class="mt-2">
+            <a class="text-white" href="tel:9743461955"
+              ><i class="fa fa-phone"></i> &nbsp;&nbsp;&nbsp;<span
+                >Phone :
+              </span>
+              9743461955</a
+            >
+          </li>
+          <li class="mt-2">
+            <a
+              class="text-white"
+              href="http://maps.google.com/?q=59 Opp Bank Of India
                               G-Block Sahakarnagar Main Road Bangalore 560092"
-                    target="_blank"
-                    ><i class="fa fa-map-o"></i>&nbsp;&nbsp;&nbsp;59, Opp Bank
-                    Of India, G-Block, Sahakarnagar Main Road, Bangalore-560092</a
-                  >
-                </li>
-              </ul>
-          </div>
-          <!-- <div class="col-lg-3 col-md-6">
+              target="_blank"
+              ><i class="fa fa-map-o"></i>&nbsp;&nbsp;&nbsp;59, Opp Bank Of
+              India, G-Block, Sahakarnagar Main Road, Bangalore-560092</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="col-lg-3 col-md-6">
               <h5 class="text-white mb-4">Quick Links</h5>
               <a class="btn btn-link" href="">About Us</a>
               <a class="btn btn-link" href="">Contact Us</a>
@@ -104,30 +116,54 @@
               <a class="btn btn-link" href="">Terms &amp; Condition</a>
               <a class="btn btn-link" href="">Support</a>
           </div> -->
-          <div class="col-lg-8 col-md-6 mt-3 mt-sm-0">
-              <h5 class="text-white mb-4">Project Gallery</h5>
-              <div class="row g-2">
-                  <div class="col-4">
-                      <img class="img-fluid rounded" src="/assets/images/BESCOM.jpg" alt="">
-                  </div>
-                  <div class="col-4">
-                      <img class="img-fluid rounded" src="/assets/images/hybrid.jpg" alt="">
-                  </div>
-                  <div class="col-4">
-                      <img class="img-fluid rounded" src="/assets/images/offgrid.jpg" alt="">
-                  </div>
-                  <div class="col-4">
-                      <img class="img-fluid rounded" src="/assets/images/ongrid.jpg" alt="">
-                  </div>
-                  <div class="col-4">
-                      <img class="img-fluid rounded" src="/assets/images/BESCOM.jpg" alt="">
-                  </div>
-                  <div class="col-4">
-                      <img class="img-fluid rounded" src="/assets/images/Energy_Meter.png" alt="">
-                  </div>
-              </div>
+      <div class="col-lg-8 col-md-6 mt-3 mt-sm-0">
+        <h5 class="text-white mb-4">Project Gallery</h5>
+        <div class="row g-2">
+          <div class="col-4">
+            <img
+              class="img-fluid rounded"
+              src="/assets/images/BESCOM.jpg"
+              alt=""
+            />
           </div>
-          <!-- <div class="col-lg-3 col-md-6">
+          <div class="col-4">
+            <img
+              class="img-fluid rounded"
+              src="/assets/images/hybrid.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid rounded"
+              src="/assets/images/offgrid.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid rounded"
+              src="/assets/images/ongrid.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid rounded"
+              src="/assets/images/BESCOM.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-4">
+            <img
+              class="img-fluid rounded"
+              src="/assets/images/Energy_Meter.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-lg-3 col-md-6">
               <h5 class="text-white mb-4">Newsletter</h5>
               <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
               <div class="position-relative mx-auto" style="max-width: 400px;">
@@ -135,9 +171,8 @@
                   <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
               </div>
           </div> -->
-      </div>
+    </div>
   </div>
-
 </div>
 
 <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
